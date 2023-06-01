@@ -56,23 +56,10 @@ class Universitas:
 - Kelas `Universitas` merepresentasikan objek universitas dengan atribut `NamaUniversitas` dan `DaftarJurusan`. Pada metode `__init__`, atribut-atribut tersebut diinisialisasi dengan nilai-nilai awal. `DaftarJurusan` diinisialisasi sebagai sebuah list kosong yang akan menampung objek-objek `Jurusan`. Kelas ini memiliki metode `tambah_jurusan(jurusan)` yang digunakan untuk menambahkan objek `Jurusan` ke dalam daftar jurusan universitas. Selain itu, kelas ini memiliki metode `tampilkan_daftar_jurusan()` yang menampilkan daftar jurusan yang terdaftar di universitas.
 
 Langkah-langkah yang dilakukan dalam kode tersebut adalah sebagai berikut:
-'universitas_xyz = Universitas("XYZ University")'
-1. Membuat objek `Universitas` dengan nama "XYZ University" menggunakan kode `universitas_xyz = Universitas("XYZ University")`.
-
-jurusan_ti = Jurusan("Teknik Informatika")
+1. Membuat objek `Universitas` dengan nama "XYZ University" menggunakan kode `universitas_xyz = Universitas("XYZ University")
 2. Membuat objek `Jurusan` dengan nama "Teknik Informatika" menggunakan kode `jurusan_ti = Jurusan("Teknik Informatika")`.
-
-universitas_xyz.tambah_jurusan(jurusan_ti)
 3. Menambahkan objek `Jurusan` yang telah dibuat ke dalam objek `Universitas` menggunakan kode `universitas_xyz.tambah_jurusan(jurusan_ti)`.
-
-mahasiswa1 = Mahasiswa("Damianus Christopher S", "G1A022028", jurusan_ti)
 4. Membuat objek `Mahasiswa` dengan nama "Damianus Christopher S", nim "G1A022028", dan jurusan yang telah dibuat (`jurusan_ti`) menggunakan kode `mahasiswa1 = Mahasiswa("Damianus Christopher S", "G1A022028", jurusan_ti)`.
-
-jurusan_ti.tambah_mahasiswa(mahasiswa1)
-6. Menambahkan objek `Mahasiswa` yang telah dibuat ke dalam objek `Jurusan` menggunakan kode `jurusan_ti.tambah_mahasiswa(mahasiswa1)`.
-
-universitas_xyz.tampilkan_daftar_jurusan()
-7. Menampilkan daftar jurusan yang terdaftar di objek `Universitas` menggunakan kode `universitas_xyz.tampilkan_daftar_jurusan()`.
-
-jurusan_ti.tampilkan_daftar_mahasiswa()
-8. Menampilkan daftar mahasiswa yang terdaftar di objek `Jurusan` menggunakan kode `jurusan_ti.tampilkan_daftar_mahasiswa()`.
+5. Menambahkan objek `Mahasiswa` yang telah dibuat ke dalam objek `Jurusan` menggunakan kode `jurusan_ti.tambah_mahasiswa(mahasiswa1)`.
+6. Menampilkan daftar jurusan yang terdaftar di objek `Universitas` menggunakan kode `universitas_xyz.tampilkan_daftar_jurusan()`.
+7. Menampilkan daftar mahasiswa yang terdaftar di objek `Jurusan` menggunakan kode `jurusan_ti.tampilkan_daftar_mahasiswa()`.
